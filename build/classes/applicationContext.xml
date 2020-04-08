@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+
+	<!-- 将对象Users交给Spring容器管理 
+		name:bean的名称
+		class:执行实体类型对应的相对路径地址
+	-->
+	<bean name="users" class="com.spring.pojo.Users">
+	</bean>
+</beans>
